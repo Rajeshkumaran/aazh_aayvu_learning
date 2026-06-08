@@ -1,2 +1,2 @@
 # aazh_aayvu_learning
-Where learning goes deep
+Simple learning app to help people learn data structures.
