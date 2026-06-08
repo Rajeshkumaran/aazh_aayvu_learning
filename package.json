@@ -1,0 +1,17 @@
+{
+  "name": "aazh_aayvu_learning",
+  "version": "1.0.0",
+  "description": "Where learning goes deep",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:Rajeshkumaran/aazh_aayvu_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
