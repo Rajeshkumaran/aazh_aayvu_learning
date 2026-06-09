@@ -13,7 +13,7 @@ Data structures are organized under the `src/DataStructures/` folder.
 ## Queue
 
 Queue is implemented using a linked list.
-![alt text](image.png)
+![alt text](src/DataStructures//Queue/image.png)
 
 To run the Queue implementation file directly with Node.js, use:
 
