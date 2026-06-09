@@ -1,4 +1,5 @@
 # aazh_aayvu_learning
+
 Where learning goes deep
 
 ## Setup
@@ -7,18 +8,15 @@ Requires Node.js.
 
 ## Usage
 
+Data structures are organized under the `src/DataStructures/` folder.
+
+## Queue
+
+Queue is implemented using a linked list.
+![alt text](image.png)
+
+To run the Queue implementation file directly with Node.js, use:
+
 ```bash
-node main.js <module>
+node src/DataStructures/Queue/index.js
 ```
-
-Add your data structure or algorithm as a file in `src/` (e.g., `src/stack.js`). Export functions using ES module `export`, and they become interactive commands.
-
-```bash
-# List available modules
-node main.js
-
-# Run a specific module
-node main.js stack
-```
-
-Type `exit` to quit the interactive prompt.
