@@ -28,6 +28,9 @@ class DoublyLinkedList {
     let nextNode = node.next;
     prevNode.next = node.next;
     nextNode.prev = node.prev;
+
+    node.prev = null;
+    node.next = null;
   }
 
   deleteLastNode() {
