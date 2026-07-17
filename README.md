@@ -5,6 +5,8 @@ Where learning goes deep
 ## Navigation
 
 - [Setup](#setup)
+- [Algorithms](#algorithms)
+  - [Binary Search](#binary-search)
 - [Data Structures](#data-structures)
   - [Queue](#queue)
   - [Stack](#stack)
@@ -18,9 +20,47 @@ Requires Node.js.
 
 ## Usage
 
+Algorithms are organized under the `src/Algorithms/` folder.
+
 Data structures are organized under the `src/DataStructures/` folder.
 
 System design examples are organized under the `src/SystemDesign/` folder.
+
+## Algorithms
+
+### Binary Search
+
+Binary Search example that compares a linear scan with binary search on a sorted array.
+
+This implementation demonstrates:
+
+- `linearSearch(arr, element)` with `O(N)` time complexity
+- `binarySearch(arr, element)` with `O(log N)` time complexity on sorted input
+- a simple example using `element = 11`
+
+Binary search only works correctly when the input array is already sorted.
+
+The current example uses:
+
+```js
+let arr = [1, 2, 3, 5, 6, 7, 9, 11, 13];
+let element = 11;
+```
+
+Expected output:
+
+```bash
+true // Linear search output
+true // Binary search output
+```
+
+![Binary Search](src/Algorithms/BinarySearch/BinarySearch.png)
+
+To run the Binary Search example directly with Node.js, use:
+
+```bash
+node src/Algorithms/BinarySearch/index.js
+```
 
 ## Data Structures
 
